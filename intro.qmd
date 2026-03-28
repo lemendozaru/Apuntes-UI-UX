@@ -1,0 +1,20 @@
+# Introducción
+
+En este pequeño libro abordaremos el proceso de creación del esqueleto de la interfaz de usuario (IU) de un videojuego. Cubriremos varios aspectos, como:
+
+Historias de usuario
+: Comenzaremos por utilizar historias de usuario para definir nuestra población objetivo e informar nuestras decisiones de diseño a través del proyecto.
+
+Requerimientos de diseño
+: Cubriremos los criterios de diseño, el plan de lo que crearemos, los objetivos del jugador y lo que necesita incluir la IU como parte de los requisitos de diseño. Aquí es donde podemos consultar IUs de otros juegos que hayan probado su buen funcionamiento.
+
+Esqueleto
+: Enseguida crearemos un diseño de baja fidelidad para nuestra IU, conocido como esqueleto, estructura básica o "wireframe". Lo haremos con alguna herramienta disponible. Al ser un boceto, no es necesario que nos preocupemos demasiado por los colores o el acabado final.
+
+Diseño iterativo
+: Es un proceso circular de prueba para nuestra IU, implicando detección y arreglo de problemas para refinar y mejorarel producto.
+
+Metodología de diseño
+: Es un flujo de trabajo "paso a paso" para crear la IU del juego, que incluye aspectos como el diseño visual y de interacción, prototipado, implementación, pruebas y documentación.
+
+No es necesario saber programar ni tener experiencia previa.

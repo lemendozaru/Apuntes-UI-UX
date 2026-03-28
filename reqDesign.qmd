@@ -1,0 +1,29 @@
+# Requerimientos de diseño
+
+## Definiendo los criterios de diseño
+
+Lo primero que necesitamos responder es: ¿qué necesita hacer la interfaz de usuario? Tomando el ejemplo del capítulo anterior, sabemos que la IU tiene que permitirle al jugador finalizar bien su nivel. Si suponemos que nuestro título es un juego RPG de acción en 3D para dispositivos móviles, nuestros criterios de diseño son lo que la IU necesita para que el jugador alcance su meta:
+
+- Se debe permitir al jugador **moverse** y **ver alrededor**.
+- Se debe dejar **atacar**, **bloquear** y **saltar**.
+- Debe haber espacio para que el jugador tenga y ejecute *habilidades especiales*.
+- Se debe dar maneras de acceder al **inventario** y al **menú**.
+
+## Definiendo el dispositivo
+
+Ahora toca definir en dónde o cuál tipo de dispositivo utilizará el usuario. Para nuestro caso, hemos establecido como ejemplo que será en un teléfono móvil. Esto nos da la pista de que nuestra IU puede usarse en modo horizontal, ya que eso es lo acostumbrado en juegos de acción RPG.
+
+Ya tenemos definido el dispositivo y cómo será usado. Es importante ir documentando todo lo que vayamos estableciendo, para así permitir a otros integrantes de nuestro equipo el llegar a resultados similares al nuestro o colaborar de manera más certera.
+
+## Consultando interfaces similares
+
+Es buena idea investigar cómo otros han resuelto la misma situación o cómo han diseñado sus IU para permitir al jugador terminar satisfactoriamente sus títulos.
+
+Una IU de RPGs de acción típicamente contiene:
+
+- Una palanca para mover al personaje, normalmente se pone del lado izquierdo.
+- El movimiento de la cámara se realiza deslizando el dedo en la pantalla.
+- Las acciones como atacar, bloquear o habilidades especiales se realizan con botones del lado derecho.
+- El menú y otros botones contextuales se colocan generalmente en la parte superior de la pantalla.
+
+Naturalmente no tenemos por qué seguir estrictamente este diseño de IU, pero si muchos juegos del mismo estilo ya lo hacen, algo debe estar funcionando bien.

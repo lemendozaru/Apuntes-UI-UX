@@ -1,0 +1,21 @@
+# Historias de Usuario
+
+Son una parte importante del flujo de trabajo del diseño de IU, ya que ellas enlazan con todas nuestras decisiones de diseño. Una historia de usuario describe la funcionalidad de una aplicación desde la perspectiva del usuario final. Esto nos permite establecer nuestra población objetivo para poder tomar las decisiones de diseño adecuadas para ella.
+
+## La fórmula
+
+Una historia de usuario efectiva tiene la siguiente estructura: "Como un [tipo de usuario], quiero [hacer algo] que haga que [un resultado] ocurra." Esto divide una historia de usuario en:
+
+1. Rol: el tipo de usuario al que apunta nuestra IU.
+2. Objetivo: lo que el usuario quiere lograr tras usar la IU.
+3. Resultado: lo que el usuario obtiene por usar la IU.
+
+Estos factores nos dan la estructura para construir nuestra historia de usuario. Aquí es donde arranca nuestra investigación, la cual puede incluir entrevistas o consultar otros productos ya existentes. Tomemos como ejemplo una muy simple pero efectiva historia de usuario:
+
+"Yo, como jugador, quiero tener un control refinado sobre mi personaje para que pueda completar satisfactoriamente el nivel."
+
+Esto establece que el usuario es el jugador, que espera un IU diseñada para tener un excelente manejo de su caracter, lo cual produzca un desempeño satisfactorio en el juego.
+
+## Tipos de usuario
+
+Es importante definir también el tipo de usuario o persona que hara uso de la IU, ya que debemos calibrar la experiencia en consecuencia. Por ejemplo, posiblemente deseemos lanzar el juego para que lo utilice un público adolescente que juegue casualmente en su teléfono. Esta situación nos obliga a considerar una IU que no sea tan compleja, que responda bien en pantallas pequeñas con controles táctiles. Pero cuidado, tampoco debemos simplificar demasiado nuestra interfaz.
