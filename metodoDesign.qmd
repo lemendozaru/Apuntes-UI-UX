@@ -15,4 +15,49 @@ La metodología de diseñar una interfaz de usuario con la experiencia de usuari
 
 ## Investigación
 
+Aquí es donde encontramos lo más que podamos sobre nuestro público objetivo, tal como lo que buscan, lo que quieren y su comportamiento. Esto se puede conseguir a través de encuestas, entrevistas, viendo otros juegos ya existentes o recolectando la información por otros medios.
+
+## Metas de diseño
+
+Aquí debemos definir los objetivos y metas del proyecto. Es un conjunto de criterios que la interfaz de usuario debe cumplir.
+
+## Maquetado o esqueleto
+
+Son versiones preliminares de la interfaz que pueden ser utilizadas para delinear la estructura y funcionalidad de la IU del juego. Consiste en utilizar formas básicas para determinar la posición general de los distintos elementos de la IU. Aquí podemos diseñar rápidamente nuestra IU sin tener que programar.
+
+## Diseño visual
+
+En este punto comenzamos a desarrollar la estética visual de la interfaz, ya sea decidiendo el esquema de colores o los elementos gráficos que deseamos utilizar.
+
+Aquí llevamos el esqueleto un paso más y comenzamos a estilizarlo a nuestro gusto, ya no solo en cuanto a funcionalidad si no también en cuanto a una apariencia específica de la propia interfaz.
+
+## Diseño de interacción
+
+Es donde definimos cuáles interacciones habrá con nuestra interfaz. Esto implica definir si usaremos botones, menúes o diapositivas. También incluye el decidir qué se hará con una palanca, por ejemplo: ¿mover la cámara o cambiar la dirección de un disparo? Otros elementos, tales como la barra de vida, necesitan estar bien establecidos en cuanto a qué hace que aparezcan en pantalla.
+
+Toda decisión que tomemos debe ser documentada, bien definida, para que cualquier persona que colabore en el desarrollo tenga una idea muy clara de lo que hará tal o cual elemento.
+
+## Prototipado
+
+Es justamente donde nuestra IU comienza a volverse realidad tras llegar a su primera fase funcional. Muchas veces se realiza mediante herramientas de diseño web, aunque lo normal es que al ser para videojuegos, sea hecho dentro del propio motor del juego. Esto con el fin de poder programar y probar la interfaz en un medio más cercano al real. Es también una plataforma para brindar el prototipo a mayor cantidad de probadores.
+
+## Diseño iterativo
+
+Con un prototipo terminado ya podemos entrar a una segunda vuelta de esta fase. Si bien en el maquetado podemos realizarla, es después del prototipado cuando ya lo podemos ejecutar con una IU funcional que puede ser probada por potenciales usuarios pertenecientes al público objetivo. Esto resulta extremadamente útil para encontrar problemas que pudimos pasar por alto.
+
+Podemos entrevistar a los probadores o incluso, si nos lo permiten, grabar sus pantallas mientras utilizan nuestro título. Lo ideal es darle nuestra IU a la mayor cantidad de personas que podamos.
+
+## Implementación
+
+Aquí ya entramos en colaboración con los desarrolladores para implementar la IU en el juego final. Probablemente ya no se tenga mucho que hacer en esta fase, ya que es donde nuestra IU queda en otras manos.
+
+## Pruebas
+
+Con la interfaz en su forma final, regresamos al diseño iterativo para probar el producto. En este punto ya no buscamos problemas con el diseño, más bien estamos a la caza de problemas de rendimiento o errores en la IU. Es muy importante que las pruebas sean exhaustivas, para que así podamos publicar un gran producto final.
+
+## Documentación
+
+Esta es la última fase y es donde terminamos la documentación, cubriendo la propia interfaz, cualquier guía u hoja de estilos. Esto nos permite tener una vista general del proyecto, la cual puede darse a cualquier otra persona que pueda continuar con él o replicarlo. Si dicha persona tiene una duda, perfectamente debería poder resolverla echando un ojo a la documentación.
+
+Esto fue una metodología de diseño que cubre el flujo de trabajo desde la investigación hasta la documentación. Listo, hemos creado un maquetado sencillo en un programa de uso general.
 
