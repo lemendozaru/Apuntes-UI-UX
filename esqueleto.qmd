@@ -1,0 +1,35 @@
+# Armando el esqueleto
+
+Este debe seguir los principios enlistados en el capítulo anterior. Basta con conseguir imágenes de muestra que representen la palanca y los botones y acomodarlos según la idea de IU que tengamos. En cuanto a aplicaciones para conseguirlo, existe una amplia variedad de editores de imágenes e incluso aplicaciones dedicadas. Un nombre que viene rápido es "Figma", por ejemplo.
+
+En nuestro caso, basta con un editor de propósito general (**Inkscape**) y unos cuantos elementos visuales que representen los controles. Los elementos multimedia se encuentran en el repositorio.
+
+## Maquetando con Inkscape
+
+Abrimos el programa y damos clic derecho en la hoja en blanco que se presenta en la pantalla principal. Escogemos *Propiedades del documento..* y en la ventana que aparece buscaremos *Orientación* y la cambiamos a horizontal.
+
+Para empezar, necesitamos una captura de algún juego similar al que queremos representar. Vamos a importar una que se encuentra en la carpeta `multimedia`, llamada `captura.png`. En Inkscape nos vamos a *Archivo -> Importar* y la seleccionamos; en la ventana que aparece nos aseguramos de dejar todo por defecto (tipo: incrustar, PPP: desde archivo y renderizado: ninguno) dando en "Aceptar". La pondremos como el fondo de nuestro lienzo yendo a *Capa -> Bajar capa hasta el fondo*. Notaremos que la imagen deja huecos en el lienzo. Lo resolvemos dando clic derecho al propio lienzo (no a la imagen) y luego clicando en el botón *Ajustar a contenido*. Cerramos la ventana emergente.
+
+Luego, desde el navegador de archivos de nuestro SO, arrastramos el archivo `palanca.svg` hacia nuestro documento de Inkscape. El programa nos abrirá otra ventana emergente en la que solo debemos asegurarnos de que esté seleccionada la opción *Incluir imagen SVG como objeto editable en el archivo actual* y aceptamos. Tardará un poco en aparecer y luego la colocamos en la parte inferior izquierda. El tamaño de seguro es muy pequeño, por lo que debemos escalarlo con el ratón, presionando {{<kbd Ctrl>}} y jalando uno de los manejadores que se encuentran en alguna esquina.
+
+Del lado opuesto, irán los botones de acción. Se sugiere que los botones que más se utilizarán (lo cual podemos deducirlo tras conocer la naturaleza de nuestro juego) queden más cerca de la posición natural de los dedos (en este caso el pulgar, por ejemplo). Así, los botones de ataque y bloqueo (`espada.svg` y `escudo.svg`, respectivamente) serían más accesibles, dejando los de las habilidades especiales un poco más lejanos (para el salto y el especial tenemos sus respectivos `salto.svg` y `especial.svg`), pero no por ello los dejaremos en lugares antinaturales. Repetimos los mismos pasos que con la palanca para tenerlos en su lugar.
+
+Por último, los botones que se corresponden con la pausa y el acceso al inventario podemos dejarlos en la parte superior de la pantalla, lo suficientemente lejanos de la acción para evitar que el jugador los presione por error, pero tampoco tan inaccesibles que dificulten su buen uso. La "pausa" (`pausa.svg`) la dejamos del lado izquierdo y el "menú" (`menu.svg`) en el derecho.
+
+### Alineando las acciones
+
+Una vez que los hayamos colocado en su posición adecuada, refinamos la alineación seleccionando con {{<kbd Mayus>}} los dos botones que se hayan dejado a la derecha (tomaremos la espada y el escudo como ejemplo) y los alineamos horizontalmente mediante el menú *Objeto -> Alinear y distribuir* y en el panel que aparece a la derecha en *Centrar en el eje vertical*. Lo mismo hacemos con el "salto" y el "especial". Ahora seleccionamos las dos acciones que quedaron debajo y las alineamos en el panel derecho con *Centrar en el eje horizontal*. Repetimos con las que quedaron arriba.
+
+Juguemos con las alineaciones. Si alguna no nos convence, tenemos otras a disposición en el panel derecho. También podemos alinear los bordes, tanto izquierdo como derecho, así como superior e inferior.
+
+### Mejorando la visibilidad
+
+Una ventaja de trabajar con imágenes vectoriales es que podemos cambiar fácilmente su color de relleno. En nuestro ejemplo cambiamos este a otro ligeramente más oscuro, seleccionando antes los diferentes iconos y luego yendo a *Objeto -> Relleno y borde* y clicando la pestaña *Relleno*, pudiendo ya cambiarlo a cualquiera de los colores que se encuentran en la paleta inferior.
+
+Con los iconos aún seleccionados ahora clicamos en la pestaña *Color de trazo* y luego en el recuadro blanco que pone *Color uniforme*. El que está por defecto es el negro. Bien podemos dejarlo así o modificarlo a nuestro gusto.
+
+Debemos considerar que el esqueleto es un acercamiento a la idea de interfaz que tenemos, por lo que los colores e iconos no tienen porque coincidir exactamente con lo deseado. Como ejemplo, podemos partir de este maquetado:
+
+![Ejemplo de maquetado.](/multimedia/maqueta1.png)
+
+No olvidemos guardar nuestra maqueta en formato editable (`svg`). Muy probablemente tengamos que editarlo más adelante.

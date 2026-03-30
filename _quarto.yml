@@ -9,6 +9,9 @@ book:
     - intro.qmd
     - userStories.qmd
     - reqDesign.qmd
+    - esqueleto.qmd
+    - iterativo.qmd
+    - metodoDesign.qmd
     - summary.qmd
     - references.qmd
 

@@ -1,0 +1,18 @@
+# Metodología de diseño
+
+La metodología de diseñar una interfaz de usuario con la experiencia de usuario en mente puede ser bastante complicada. El flujo de trabajo incluye tener una idea, desarrollarla, crearla y probarla en producción. Puede diferir de compañía en compañia e incluso de proyecto en proyecto. Sin embargo, podemos definir una que funciona bien con base en díez pasos:
+
+1. Investigación
+2. Metas de diseño
+3. Maquetado
+4. Diseño visual
+5. Diseño de interacción
+6. Prototipado
+7. Diseño iterativo
+8. Implementación
+9. Pruebas
+10. Documentación
+
+## Investigación
+
+
